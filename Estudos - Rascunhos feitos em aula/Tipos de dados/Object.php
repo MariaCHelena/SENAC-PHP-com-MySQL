@@ -28,11 +28,17 @@ Trabalhando com Objetos
             }
             
             $meuCarro = new Carros ('Preto', 'Volvo');
-            
+        
             var_dump($meuCarro);
             echo "<br>";
             echo $meuCarro->message();
             echo "<br>";
+        
+            $carroNovo = new Carros ('Branco', 'Fiat');
+        
+            var_dump($carroNovo);
+            echo"<br>";
+            echo $carroNovo->message();
         ?>
     </body>
 </html>
