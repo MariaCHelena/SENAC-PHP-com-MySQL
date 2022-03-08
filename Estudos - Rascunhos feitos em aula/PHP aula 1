@@ -1,0 +1,29 @@
+<?php
+	// Serão executados todos os comandos dentro da tag PHP
+	
+	// Sintaxe de criação de uma classe
+	class Fruta {
+		// Propriedade ou Atributo
+		public $nome
+		public $cor
+		
+		// Métodos, Operações ou Função
+		function inserirNome($nome) {
+			$this->nome = $nome;
+		}
+		
+		function buscarNome($nome) {
+		return $this->nome;
+		}
+	}
+	
+	$maca = new Fruta();
+	$banana = new Fruta();
+	$maca->inserirNome('Maça');
+	$banana->inserirNome('Banana');
+	
+	echo $maca->buscarNome();
+	echo "<br>";
+	echo $banana->buscarNome();
+	
+?>
