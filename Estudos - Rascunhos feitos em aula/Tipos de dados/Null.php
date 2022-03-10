@@ -16,8 +16,12 @@ Trabalhando com NULL ou valores nulos
             
             var_dump($x);
             $y = [1, 2, 3, Null];
+        
+            echo "<br>";
+        
+            var_dump($y);
             
-            for ($i = 1; $i < count($y); $i++){
+            for ($i = 0; $i < count($y); $i++){
                 echo "<br>";
                 var_dump($y[$i]);
             }
