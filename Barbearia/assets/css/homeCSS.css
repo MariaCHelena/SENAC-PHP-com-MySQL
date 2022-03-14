@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*Fundo que aparece na página principal*/
+.principal {
+    height: 700px;
+    
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/pexels-nick-demou-1319460.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome {
+    color: #fff;
+    font-family: Lucida Console, sans-serif;
+    font-size: 25px;
+
+    display: block;
+    border: solid #fff 2px;
+    border-radius: 15px;
+    padding: 25px 50px 30px;
+    
+    text-align: center;
+}
+
+.welcome small{
+    font-size: 10px;
+    display: block;
+}
+
+.welcome .small-top{
+    padding-bottom: 15px;
+}
+
+.welcome .small-bottom{
+    padding-top: 15px;
+}
+
+/*Conteúdos do site*/
+
+/*grid com as fotos da barbearia*/
+.imagem-grid{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/*Div que abrange as duas colunas*/
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 300px 300px;
+    gap: 20px; 
+
+    float: left;
+    padding: 15px;
+}
+
+.wrapper:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*cada coluna separadamente*/
+.wrapper.left{
+    width: 50%;
+}
+
+.wrapper.right{
+    display: block;
+    width: 50%;
+}
+
+/*coluna da direita*/
+.horario{
+    font-size: 20px;
+}
+
+.horarios h3{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.horarios span{
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+.wrapper-texto{
+    margin-top: 1em;
+    margin-bottom: 3em;
+    font-size: 18px;
+}
+
+.botao{
+    background-color: var(--cinza);
+    padding: 15px 30px;
+    margin: 10px;
+    text-align: center;
+    line-height: 1.2em;
+
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: #535353;
+    color: white;
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Conteúdo dividido em colunas*/
+.column {
+    float: left;
+    padding: 15px;
+}
+
+.column.side{
+    width: 30%;
+}
+
+.column.middle{
+    width: 35%;
+}
+
+/*div que abrange as duas colunas*/
+.conteudo{
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.conteudo:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*Rest da página*/
+.rest {
+    background: var(--cinza);
+
+    height: 100px;
+}

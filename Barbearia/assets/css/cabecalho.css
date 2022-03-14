@@ -1,0 +1,48 @@
+:root{
+    --cinza: #5c5c5c;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.navegador-links {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0px 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color:var(--cinza);
+    
+}
+
+nav i:hover{
+    cursor: pointer;
+}
+
+.logo {
+    width: 180px;
+    text-align: center;
+    margin: 10px 10px 10px 40px;
+    font-family: montserrat;
+    font-size: 18px;
+}
+
+.navegador {
+    padding: 20px 40px;
+}
+
+.logo-size {
+    width: 180px;
+}
+

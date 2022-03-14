@@ -1,0 +1,24 @@
+footer i:hover {
+    color: var(--cinza);
+}
+
+footer i{
+    transition: 0.3s;
+}
+
+.conteudo-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.rodape-links a{
+    margin: 0 8px;
+}
+
+.rodape-texto span{
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
