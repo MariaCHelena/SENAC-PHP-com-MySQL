@@ -4,7 +4,7 @@
 
 
 /*Fundo que aparece na página principal*/
-.principal {
+#principal {
     height: 700px;
     
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/pexels-nick-demou-1319460.jpg');
@@ -58,13 +58,14 @@
 }
 
 /*Div que abrange as duas colunas*/
-.wrapper {
+.fotos {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 300px 300px;
     gap: 20px; 
+}
 
-    float: left;
+.wrapper {
     padding: 15px;
 }
 
@@ -76,12 +77,14 @@
 
 /*cada coluna separadamente*/
 .wrapper.left{
-    width: 50%;
+    width: 100%;
 }
 
 .wrapper.right{
     display: block;
-    width: 50%;
+    width: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 /*coluna da direita*/
@@ -147,6 +150,7 @@
     margin-top: 40px;
     margin-left: 40px;
     display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -156,6 +160,30 @@
     clear: both;
 }
 
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row{
+    margin: 40px 40px 0;
+}
+
+.conteudo-texto{
+    float: left;
+    text-align: center;
+}
+
+.conteudo-texto.side{
+    width: 25%;
+}
+
+.conteudo-texto.middle{
+    width: 47%;
+    margin: 0 15px;
+}
+
 
 /*Rest da página*/
 .rest {
@@ -163,3 +191,4 @@
 
     height: 100px;
 }
+
