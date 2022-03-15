@@ -10,12 +10,13 @@
         <link rel="stylesheet" href="assets/css/homeCSS.css">
         <link rel="stylesheet" href="assets/css/cabecalho.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
+        <link rel="stylesheet" href="assets/css/responsivo.css">
         
         
         <link rel="stylesheet" href="assets/css/bootstrap-5.1.3-dist/css/bootstrap-grid.css">
     </head>
     <body>
-        <header>
+        <header id = "cabecalho">
             <div class="logo logo-size"><a href="index.php"><img src="assets/img/boy.png" width="50px" height="50px"><h1>MENINO PIMPOSO</h1></a></div>
             <nav class="navegador">
                 <ul class="navegador-links">
@@ -23,13 +24,13 @@
                         <a href="index.php" target="_blanc">Home</a>
                     </li>
                     <li>
-                        <a href="sobre.html" target="_blanc">Sobre</a>
-                    </li>
-                    <li>
                         <a href="servicos.html" target="_blanc">Serviços</a>
                     </li>
                     <li>
                         <a href="contatos.php" target="_blanc">Contatos</a>
+                    </li>
+                    <li>
+                        <a href="cadastro.php" target="_blanc">Cadastro</a>
                     </li>
                     <li>
                         <a href="agenda.php" target="_blanc">Agenda</a>
@@ -44,7 +45,7 @@
             </nav>
         </header>
         
-        <div class="principal">
+        <div class="principal" id="principal">
         </div>
 
         <div class="centered welcome">
@@ -56,10 +57,10 @@
         <div class="rest"></div>
 
         <div class="conteudo">
-            <div class="wrapper left">
-                <img src="assets/img/Barber-pic (1).jpg" alt="Foto da barbearia" class="imagem-grid">
+            <div class="wrapper left fotos">
+                <img src="assets/img/Barber-pic (1).jpg" alt="Foto da barbearia" class="imagem-grid" style="justify-self: end;">
                 <img src="assets/img/Barber-pic (2).jpg" alt="Foto da barbearia" class="imagem-grid">
-                <img src="assets/img/Barber-pic (3).jpg" alt="Foto da barbearia" class="imagem-grid">
+                <img src="assets/img/Barber-pic (3).jpg" alt="Foto da barbearia" class="imagem-grid"  style="justify-self: end;">
                 <img src="assets/img/Barber-pic (4).jpg" alt="Foto da barbearia" class="imagem-grid">
             </div>
 
@@ -81,21 +82,23 @@
             </div>
         </div>
 
-        <div class="conteudo">
-            <div class="column side">
-                CONTEUDO 1
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi doloremque eveniet ipsum quasi sint placeat ab in similique unde. Voluptatum odio aspernatur ullam accusantium! Dicta veniam aliquam maxime culpa dolores?</p>
-                
+        <div class="row">
+            <div class="conteudo-texto side">
+                <h3>TITULO 1</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quisquam rerum amet et, maxime accusamus mollitia porro nesciunt reiciendis debitis ad expedita modi illum distinctio consequatur ipsum? Libero, nemo aut.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quo impedit asperiores odit libero ea accusamus nostrum, vel voluptas, doloribus ullam soluta ipsum repellendus tenetur laborum ipsam eaque error quisquam.
             </div>
 
-            <div class="column middle">
-                CONTEUDO 2
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A qui inventore, obcaecati corporis molestiae corrupti, odio quis repellendus veritatis doloribus dolores. Similique modi id eligendi eveniet, corporis necessitatibus recusandae voluptate.</p>
+            <div class="conteudo-texto middle">
+                <h3>TITULO 2</h3>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur non explicabo quos porro, repellendus numquam laborum perferendis odit culpa, eveniet nobis hic doloremque laudantium? Cum sunt reiciendis dolor impedit nesciunt?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam reprehenderit velit, doloribus recusandae sit dignissimos porro blanditiis laborum explicabo ea animi iure cupiditate, facere omnis facilis beatae! Saepe, debitis?
             </div>
-
-            <div class="column side">
-                CONTEUDO 3
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis illum aliquid esse natus, adipisci mollitia debitis harum laborum temporibus dolor a, explicabo est, placeat in ipsa blanditiis quis. Nam, itaque?</p>
+            
+            <div class="conteudo-texto side">
+                <h3>TITULO 3</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, enim hic, aspernatur expedita tempora fuga recusandae accusamus ipsum qui rem explicabo aliquam nihil, quis totam quaerat consectetur nobis nulla id?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos modi quia repudiandae iusto. Sit, quibusdam deleniti, corporis obcaecati eius id at aliquid, consectetur natus veniam quisquam tenetur beatae fuga quidem.
             </div>
         </div>
 
@@ -119,5 +122,13 @@
 
         <!--Icons-->
         <script src="https://kit.fontawesome.com/b8158c0067.js" crossorigin="anonymous"></script>
+
+        <script>
+            var client = Math.max(document.documentElement.clientHeight);
+            var cabecalho = Math.max(document.getElementById("cabecalho").clientHeight);
+            var altura = client - cabecalho;
+            altura = altura + "px"; //O JavaScript só altera o valor da propriedade se ela estiver escrita com "px" no final
+            window.document.getElementById("principal").style.height = altura;
+        </script>
     </body>
 </html>
