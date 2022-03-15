@@ -1,0 +1,26 @@
+@media screen and (max-width: 1100px) {
+    /*cada coluna separadamente - primeiro conteúdo*/
+    .wrapper.right, .wrapper.left{
+        width: 100%;
+    }
+
+    .conteudo {
+        display: flex;
+        flex-direction: column;
+        margin: 0 5%;
+    }
+
+    .wrapper.right{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .conteudo-texto.side, .conteudo-texto.middle {
+      width: 100%;
+    }
+
+    .conteudo-texto.middle{
+        margin: 3em 0;
+    }
+  }
