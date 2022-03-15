@@ -25,13 +25,13 @@ and open the template in the editor.
                         <a href="index.php" target="_blanc">Home</a>
                     </li>
                     <li>
-                        <a href="sobre.html" target="_blanc">Sobre</a>
-                    </li>
-                    <li>
                         <a href="servicos.html" target="_blanc">Serviços</a>
                     </li>
                     <li>
                         <a href="contatos.php" target="_blanc">Contatos</a>
+                    </li>
+                    <li>
+                        <a href="cadastro.php" target="_blanc">Cadastro</a>
                     </li>
                     <li>
                         <a href="agenda.php" target="_blanc">Agenda</a>
