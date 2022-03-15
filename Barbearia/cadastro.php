@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Menino Pimposo | Sobre</title>
+        <title>Menino Pimposo | Cadastro</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
@@ -25,13 +25,13 @@ and open the template in the editor.
                         <a href="index.php" target="_blanc">Home</a>
                     </li>
                     <li>
-                        <a href="sobre.html" target="_blanc">Sobre</a>
-                    </li>
-                    <li>
                         <a href="servicos.html" target="_blanc">Serviços</a>
                     </li>
                     <li>
                         <a href="contatos.php" target="_blanc">Contatos</a>
+                    </li>
+                    <li>
+                        <a href="cadastro.php" target="_blanc">Cadastro</a>
                     </li>
                     <li>
                         <a href="agenda.php" target="_blanc">Agenda</a>
@@ -45,9 +45,8 @@ and open the template in the editor.
                 </ul>
             </nav>
         </header>
-        <div>SOBRE</div>
         <div>
-            A EMPRESA
+            FORMULÁRIO DE CADASTRO
         </div>
         <footer>
             <div class="conteudo-rodape">
