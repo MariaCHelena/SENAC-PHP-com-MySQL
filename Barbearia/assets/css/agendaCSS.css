@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.titulo-pagina{
+    background: var(--marrom-claro);
+    color: var(--branco);
+
+    height: 150px;
+
+    line-height: 150px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.formulario{
+    margin: 0px 15%;
+    padding: 8% 0 10% 10%;
+    background-color: var(--branco);
+
+    text-align: left;
+
+    font-family: sans-serif;
+
+    border: 5px solid var(--marrom-claro);
+    border-top: none;
+}
+
+legend{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    font-weight: bold;
+}
+
+#nome, #telefone, #email, #data, #time{
+    width: 60%;
+}
+
+#nome, #telefone, #email, #data, #time, #func{
+    padding: 15px;
+    background-color: var(--azul-clarissimo);
+    border: solid 1px var(--cinza);
+    border-radius: 5px;
+
+    box-shadow:  2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.botoes-formulario{
+    margin-top: 25px;
+}
+
+.botao{
+    font-size: 17px;
+    background-color: var(--branco);
+
+    border: 1px solid var(--cinza2);
+    border-radius: 5px;
+
+    transition: 0.3s;
+
+    padding: 10px 20px;
+    margin: 0 10px;
+    
+}
+
+.botao:hover{
+    cursor: pointer;
+    background-color: var(--cinza2);
+}
+
+#serv label{
+    line-height: 1.5em;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+#serv label:hover{ /*fazer com que, ao serem clicados, o label fique em negrito*/
+    cursor: pointer;
+    color: var(--cinza);
+}
+
+#serv input{
+    margin-right: 10px;
+    height: 13px;
+    width: 13px;
+}
+
+.checkmark:checked ~ .checkmark{
+    background-color: black;
+}
+
+.input-titulo{
+    font-size: 20px;
+    line-height: 1.8em;
+}
