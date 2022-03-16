@@ -167,23 +167,25 @@
 }
 
 .row{
-    margin: 40px 40px 0;
+    margin: 40px;
+    font-size: 18px;
+    line-height: 1.2;
 }
 
 .conteudo-texto{
     float: left;
     text-align: center;
+    width: 33.3%;
+    padding: 15px   ;
 }
 
-.conteudo-texto.side{
-    width: 25%;
+.conteudo-imagem{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    line-height: 100px;
 }
-
-.conteudo-texto.middle{
-    width: 47%;
-    margin: 0 15px;
-}
-
 
 /*Rest da página*/
 .rest {

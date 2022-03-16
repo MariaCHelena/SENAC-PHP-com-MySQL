@@ -56,6 +56,31 @@
 
         <div class="rest"></div>
 
+        <div class="row">
+            <div class="conteudo-texto">
+                <img src="assets\img\img-index-circle (1).jpg" alt="imagem barbearia" class="conteudo-imagem"><br><br>
+                <h3>TITULO 1</h3><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quisquam rerum amet et, maxime accusamus mollitia porro nesciunt reiciendis debitis ad expedita modi illum distinctio consequatur ipsum? Libero, nemo aut.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quo impedit asperiores odit libero ea accusamus nostrum, vel voluptas, doloribus ullam soluta ipsum repellendus tenetur laborum ipsam eaque error quisquam.</p><br>
+            </div>
+
+            <div class="conteudo-texto">
+                <img src="assets\img\img-index-circle (2).jpg" alt="imagem barbearia"  class="conteudo-imagem"><br><br>
+                <h3>TITULO 2</h3><br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur non explicabo quos porro, repellendus numquam laborum perferendis odit culpa, eveniet nobis hic doloremque laudantium? Cum sunt reiciendis dolor impedit nesciunt?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam reprehenderit velit, doloribus recusandae sit dignissimos porro blanditiis laborum explicabo ea animi iure cupiditate, facere omnis facilis beatae! Saepe, debitis?</p><br>
+            </div>
+            
+            <div class="conteudo-texto">
+                <img src="assets\img\img-index-circle (3).jpg" alt="imagem barbearia"  class="conteudo-imagem"><br><br>
+                <h3>TITULO 3</h3><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, enim hic, aspernatur expedita tempora fuga recusandae accusamus ipsum qui rem explicabo aliquam nihil, quis totam quaerat consectetur nobis nulla id?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos modi quia repudiandae iusto. Sit, quibusdam deleniti, corporis obcaecati eius id at aliquid, consectetur natus veniam quisquam tenetur beatae fuga quidem.</p><br>
+            </div>
+        </div>
+
+        <div class="rest"></div>
+
         <div class="conteudo">
             <div class="wrapper left fotos">
                 <img src="assets/img/Barber-pic (1).jpg" alt="Foto da barbearia" class="imagem-grid" style="justify-self: end;">
@@ -79,26 +104,6 @@
                 <div class="botoes">
                     <span class="botao">AGENDE<br> UM HORÁRIO</span>
                 </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="conteudo-texto side">
-                <h3>TITULO 1</h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quisquam rerum amet et, maxime accusamus mollitia porro nesciunt reiciendis debitis ad expedita modi illum distinctio consequatur ipsum? Libero, nemo aut.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat quo impedit asperiores odit libero ea accusamus nostrum, vel voluptas, doloribus ullam soluta ipsum repellendus tenetur laborum ipsam eaque error quisquam.
-            </div>
-
-            <div class="conteudo-texto middle">
-                <h3>TITULO 2</h3>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur non explicabo quos porro, repellendus numquam laborum perferendis odit culpa, eveniet nobis hic doloremque laudantium? Cum sunt reiciendis dolor impedit nesciunt?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aperiam reprehenderit velit, doloribus recusandae sit dignissimos porro blanditiis laborum explicabo ea animi iure cupiditate, facere omnis facilis beatae! Saepe, debitis?
-            </div>
-            
-            <div class="conteudo-texto side">
-                <h3>TITULO 3</h3>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, enim hic, aspernatur expedita tempora fuga recusandae accusamus ipsum qui rem explicabo aliquam nihil, quis totam quaerat consectetur nobis nulla id?
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos modi quia repudiandae iusto. Sit, quibusdam deleniti, corporis obcaecati eius id at aliquid, consectetur natus veniam quisquam tenetur beatae fuga quidem.
             </div>
         </div>
 
