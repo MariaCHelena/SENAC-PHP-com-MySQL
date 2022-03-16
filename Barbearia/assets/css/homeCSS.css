@@ -110,7 +110,7 @@
 }
 
 .botao{
-    background-color: var(--cinza);
+    background-color: var(--marrom-claro);
     padding: 15px 30px;
     margin: 10px;
     text-align: center;
@@ -120,7 +120,7 @@
 }
 
 .botao:hover{
-    background-color: #535353;
+    background-color: var(--marrom-escuro);
     color: white;
     cursor: pointer;
 }
@@ -176,8 +176,10 @@
     float: left;
     text-align: center;
     width: 33.3%;
-    padding: 15px   ;
+    padding: 3em;
 }
+
+
 
 .conteudo-imagem{
     width: 200px;
@@ -189,8 +191,8 @@
 
 /*Rest da página*/
 .rest {
-    background: var(--cinza);
+    background: var(--marrom-claro);
 
-    height: 100px;
+    height: 150px;
+    margin-bottom: 20px;
 }
-
