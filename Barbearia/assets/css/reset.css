@@ -50,3 +50,16 @@ a{
 	color: inherit;
 	text-decoration: inherit;
 }
+
+:root{
+    --cinza: #747c89;
+	--cinza2: #929292;
+    --branco: #fffafa;
+    --azul-clarissimo: #e3e9f0;
+    --marrom-claro: #3c3935;
+    --marrom-escuro: #161616;
+}
+
+body{
+	background-color: var(--branco);
+}
