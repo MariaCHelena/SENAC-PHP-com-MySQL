@@ -33,7 +33,7 @@
                         <a href="cadastro.php" target="_blanc">Cadastro</a>
                     </li>
                     <li>
-                        <a href="agenda.php" target="_blanc">Agenda</a>
+                        <a href="agenda.php" target="_blanc">Agendamento</a>
                     </li>
                     <li>
                         <a href=""><i class="fa-brands fa-facebook-square fa-lg"></i></a>
