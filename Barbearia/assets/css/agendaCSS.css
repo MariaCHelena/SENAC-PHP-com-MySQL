@@ -36,7 +36,7 @@ legend{
 }
 
 #nome, #telefone, #email, #data, #time{
-    width: 60%;
+    width: 70%;
 }
 
 #nome, #telefone, #email, #data, #time, #func{
@@ -99,3 +99,13 @@ legend{
     font-size: 20px;
     line-height: 1.8em;
 }
+
+@media (max-width: 750px){
+    #nome, #telefone, #email, #data, #time{
+        width: 70%;
+    }
+}
+
+    #nome, #telefone, #email, #data, #time, #func{
+        padding: 20px;
+    }
