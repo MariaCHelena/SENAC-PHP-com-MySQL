@@ -1,3 +1,10 @@
+footer{
+    color: var(--branco);
+    background-color: var(--marrom-escuro);
+
+    margin-top: 40px;
+}
+
 footer i:hover {
     color: var(--cinza);
 }

@@ -93,8 +93,8 @@
                 <h3>BARBEARIA MENINO PIMPOSO</h3>
                 <span>HORÁRIOS DE FUNCIONAMENTO</span>
                 <div class="wrapper-texto">
-                    <p>Segunda a Sexta .................... 8h às 18h</p>
-                    <p>Sábado, domingo e feriados ............ 10h </p>
+                    <p>Segunda a Sexta ..............................8h às 18h</p>
+                    <p>Sábado, domingo e feriados ............10h às 16h </p>
                 </div>
                 
                 <span>LOCALIZAÇÃO</span>
@@ -102,7 +102,7 @@
                     <a href="https://www.google.com/maps/place/Barbearia+Dom+Ribeiro/@-15.7883176,-47.9409155,15z/data=!4m5!3m4!1s0x0:0x7bdd7121e34b4b21!8m2!3d-15.7883176!4d-47.9409155" target="_blanc"><p>SRES Cruzeiro Center Bloco A Loja 121 - Cruzeiro Velho, Brasília - DF, 70640-515</p><a>
                 </div>
                 <div class="botoes">
-                    <span class="botao">AGENDE<br> UM HORÁRIO</span>
+                    <a class="botao" href="agenda.php">AGENDE<br> UM HORÁRIO</a>
                 </div>
             </div>
         </div>
