@@ -14,6 +14,8 @@ and open the template in the editor.
         <link rel="stylesheet" href="assets/css/cabecalho.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
         <link rel="stylesheet" href="assets/css/agendaCSS.css">
+        
+        <link rel="stylesheet" href="assets/css/responsivo.css">
 
     </head>
     <body>
