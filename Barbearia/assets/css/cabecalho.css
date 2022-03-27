@@ -30,21 +30,69 @@ nav i:hover{
 .logo {
     width: 180px;
     text-align: center;
-    margin: 10px 10px 10px 40px;
+    margin: 10px 0;
     font-family: montserrat;
     font-size: 18px;
 }
 
 .navegador {
-    padding: 20px 40px;
+    padding-top: 20px;
+    width: 100vw;
 }
 
 .logo-size {
     width: 180px;
 }
 
+input {
+    display: none;
+}
+
+.show-links{
+    background-color: var(--cinza2);
+    text-align: center;
+    color: var(--branco);
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+
+    display: none;
+}
+
 @media screen and (max-width: 750px){
+
+    .show-links{
+        display: block;
+    }
+
+    nav ul{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 20px;
+
+        display: none;
+    }
+    
     .navegador-links{
         flex-direction: column;
+    }
+
+    .show-links{
+        display: block;
+    }
+
+    input:checked + nav ul li{
+        display: block;
+    }
+
+    .margin-holder-nav{
+        margin-top: 15px;
+    }
+
+    .icons-social{
+        float: left;
     }
 }

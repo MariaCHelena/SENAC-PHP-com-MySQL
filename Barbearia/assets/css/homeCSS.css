@@ -52,7 +52,7 @@
 
 /*grid com as fotos da barbearia*/
 .imagem-grid{
-    width: 300px;
+    width: 350px;
     height: 300px;
     object-fit: cover;
 }
@@ -74,6 +74,7 @@
 /*cada coluna separadamente*/
 .wrapper.left{
     width: 100%;
+    margin-left: 5%;
 }
 
 .wrapper.right{
@@ -178,8 +179,8 @@
 
 
 .conteudo-imagem{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 50%;
     line-height: 100px;
@@ -191,4 +192,8 @@
 
     height: 150px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 750px){
+    
 }
